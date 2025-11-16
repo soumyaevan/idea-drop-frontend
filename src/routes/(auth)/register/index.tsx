@@ -1,6 +1,6 @@
 import { registerUser } from "@/api/auth";
 import { useAuthStore } from "@/stores/authStore";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import React, { useState } from "react";
 
